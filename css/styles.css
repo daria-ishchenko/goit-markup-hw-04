@@ -242,6 +242,9 @@ h6 {
   height: 112px;
   background-color: var(--light);
 }
+.svg-feature {
+  fill: var(--dark);
+}
 
 .feature-title {
   margin-top: 8px;
@@ -255,6 +258,7 @@ h6 {
 .feature-text {
   width: 264px;
   margin-top: 8px;
+  color: var(--text);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -340,12 +344,14 @@ h6 {
   border-radius: 50%;
   background-color: var(--brand-color);
 }
+
 .media-team-link {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100%;
+  fill: var(--light);
 }
 .media-team-link:hover,
 .media-team-link:focus {
@@ -382,12 +388,12 @@ h6 {
   height: 100%;
   border: 1px solid #8e8f99;
   border-radius: 4px;
-  fill: #8e8f99;
+  fill: var(--subtle-text);
 }
 .customers-link:hover,
 .customers-link:focus {
-  fill: #404bbf;
-  border: 1px solid #404bbf;
+  fill: var(--pressed-state);
+  border: 1px solid var(--pressed-state);
 }
 
 /* Footer */
@@ -450,6 +456,7 @@ h6 {
   align-items: center;
   width: 100%;
   height: 100%;
+  fill: var(--light);
 }
 .media-footer-link:hover,
 .media-footer-link:focus {
