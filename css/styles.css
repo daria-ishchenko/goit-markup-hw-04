@@ -285,6 +285,7 @@ h6 {
 
 .team-section {
   background-color: var(--light);
+  padding-bottom: 110px;
 }
 .team-list {
   padding-top: 120px;
@@ -350,16 +351,17 @@ h6 {
   border-radius: 50%;
 }
 /* ---Customers--- */
+.customers-section {
+  padding-top: 130px;
+}
 .customers-title {
   margin-bottom: 72px;
-  padding-top: 130px;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
 }
-
 .customers {
   display: flex;
   gap: 24px;
