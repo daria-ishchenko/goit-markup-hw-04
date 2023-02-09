@@ -185,7 +185,17 @@ h6 {
   padding-bottom: 188px;
   background-color: var(--dark);
 }
-
+.hero-img {
+  height: 600px;
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7) 100%
+    ),
+    url(../images/people-office.jpg);
+}
 .hero-title {
   margin-left: auto;
   margin-right: auto;
@@ -225,7 +235,16 @@ h6 {
   display: flex;
   gap: 24px;
 }
+.feature-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 112px;
+  background-color: var(--light);
+}
+
 .feature-title {
+  margin-top: 8px;
   color: var(--dark);
   font-size: 20px;
   font-weight: 500;
@@ -288,7 +307,6 @@ h6 {
 }
 .team-member-info {
   padding-top: 32px;
-  padding-bottom: 32px;
 }
 .team-member-name {
   margin-bottom: 8px;
@@ -305,6 +323,33 @@ h6 {
   letter-spacing: 0.02em;
   text-align: center;
 }
+.media-team {
+  display: flex;
+  gap: 24px;
+  margin-top: 8px;
+  padding-right: 16px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+}
+.media-team-icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: var(--brand-color);
+}
+.media-team-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.media-team-link:hover,
+.media-team-link:focus {
+  background-color: var(--pressed-state);
+  border-radius: 50%;
+}
+
 /* Footer */
 
 .page-footer {
