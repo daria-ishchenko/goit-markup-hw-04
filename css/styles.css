@@ -349,6 +349,41 @@ h6 {
   background-color: var(--pressed-state);
   border-radius: 50%;
 }
+/* ---Customers--- */
+.customers-title {
+  margin-bottom: 72px;
+  padding-top: 130px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.customers {
+  display: flex;
+  gap: 24px;
+}
+.customers-item {
+  display: flex;
+  width: 168px;
+  height: 88px;
+}
+.customers-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  fill: #8e8f99;
+}
+.customers-link:hover,
+.customers-link:focus {
+  fill: #404bbf;
+  border: 1px solid #404bbf;
+}
 
 /* Footer */
 
